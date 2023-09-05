@@ -9,12 +9,12 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 
 const Slider = () => {
   return (
-    <div className="w-10/12 mx-auto mb-24">
+    <div className="w-10/12 mx-auto mb-24 mt-4">
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
-          delay: 2500,
+          delay: 3000,
           disableOnInteraction: false,
         }}
         pagination={{

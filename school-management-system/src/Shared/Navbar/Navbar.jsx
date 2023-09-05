@@ -26,7 +26,7 @@ const Navbar = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-sm z-10 dropdown-content mt-3  p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-sm z-10 dropdown-content mt-3  p-2 shadow bg-base-100 rounded-box w-60"
           >
             <li>
               <Link to="/">Home</Link>
@@ -44,7 +44,7 @@ const Navbar = () => {
                   <Link to="/">Acceptances Certificate</Link>
                 </li>
                 <li>
-                  <Link to="/">National Certificate</Link>
+                  <Link to="/">National/MPO Certificate</Link>
                 </li>
               </ul>
             </li>
@@ -55,16 +55,19 @@ const Navbar = () => {
               </a>
               <ul className="p-2  shadow bg-base-100 rounded-box w-48">
                 <li>
-                  <Link to="/">Chairman</Link>
+                  <Link to="/chairman">Chairman</Link>
                 </li>
                 <li>
-                  <Link to="/">Principal</Link>
+                  <Link to="/principal">Principal</Link>
                 </li>
                 <li>
-                  <Link to="/">Governing</Link>
+                  <Link to="/governing">Governing</Link>
                 </li>
                 <li>
-                  <Link to="/">Staff</Link>
+                  <Link to="/teachers">Teachers</Link>
+                </li>
+                <li>
+                  <Link to="/staff">Staff</Link>
                 </li>
                 <li>
                   <Link to="/">Rules & Regulation</Link>
@@ -134,7 +137,7 @@ const Navbar = () => {
                 <Link to="/">Acceptances Certificate</Link>
               </li>
               <li>
-                <Link to="/">National Certificate</Link>
+                <Link to="/">National/MPO Certificate</Link>
               </li>
             </ul>
           </li>
@@ -145,16 +148,19 @@ const Navbar = () => {
             </a>
             <ul className="p-2 dropdown-content shadow bg-base-100 rounded-box w-48">
               <li>
-                <Link to="/">Chairman</Link>
+                <Link to="/chairman">Chairman</Link>
               </li>
               <li>
-                <Link to="/">Principal</Link>
+                <Link to="/principal">Principal</Link>
               </li>
               <li>
-                <Link to="/">Governing</Link>
+                <Link to="/governing">Governing</Link>
               </li>
               <li>
-                <Link to="/">Staff</Link>
+                <Link to="/teachers">Teachers</Link>
+              </li>
+              <li>
+                <Link to="/staff">Staff</Link>
               </li>
               <li>
                 <Link to="/">Rules & Regulation</Link>
