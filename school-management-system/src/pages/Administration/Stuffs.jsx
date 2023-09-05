@@ -1,9 +1,9 @@
 import React from 'react';
 import PersonDetailsCardFlat from '../../components/personCard/PersonDetailsCardFlat';
-import data from '../../allInformation/teachers.json'
+import data from '../../allInformation/staffs.json'
 
-const Teachers = () => {
-    const adminData = data.teachers;
+const Staffs = () => {
+    const adminData = data.staffs;
     return (
         <div className='mt-5 flex flex-col pb-10 pt-5 pl-2 pr-2'>
             <div className='flex flex-wrap justify-center gap-x-5 items-center'>
@@ -23,4 +23,4 @@ const Teachers = () => {
     );
 };
 
-export default Teachers;
+export default Staffs;

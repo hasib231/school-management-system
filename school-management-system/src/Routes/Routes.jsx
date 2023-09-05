@@ -6,6 +6,7 @@ import Chairman from "../pages/Administration/Chairmain";
 import Principal from "../pages/Administration/Principal";
 import Governing from "../pages/Administration/Governings";
 import Teachers from "../pages/Administration/Teachers";
+import Staffs from "../pages/Administration/Stuffs";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: "/teachers",
         element: <Teachers></Teachers>
+      },
+      {
+        path: "/staff",
+        element: <Staffs></Staffs>
       }
     ],
   },
