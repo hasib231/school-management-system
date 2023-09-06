@@ -8,7 +8,7 @@ import Governing from "../pages/Administration/Governings";
 import Teachers from "../pages/Administration/Teachers";
 import Staffs from "../pages/Administration/Stuffs";
 import Contacts from "../pages/contacts/Contacts";
-
+import PhotoGallery from "../pages/Gallery/PhotoGallery";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -20,23 +20,23 @@ const router = createBrowserRouter([
       },
       {
         path: "/aboutUs",
-        element: <AboutUs></AboutUs>
+        element: <AboutUs></AboutUs>,
       },
       {
         path: "/chairman",
-        element: <Chairman></Chairman>
+        element: <Chairman></Chairman>,
       },
       {
         path: "/principal",
-        element: <Principal></Principal>
+        element: <Principal></Principal>,
       },
       {
         path: "/governing",
-        element: <Governing></Governing>
+        element: <Governing></Governing>,
       },
       {
         path: "/teachers",
-        element: <Teachers></Teachers>
+        element: <Teachers></Teachers>,
       },
       {
         path: "/staff",
@@ -45,7 +45,15 @@ const router = createBrowserRouter([
       {
         path: "/contacts",
         element : <Contacts></Contacts>
-      }
+      },
+      {
+        path: "/staff",
+        element: <Staffs></Staffs>,
+      },
+      {
+        path: "/gallery",
+        element: <PhotoGallery></PhotoGallery>,
+      },
     ],
   },
 ]);
