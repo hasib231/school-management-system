@@ -7,6 +7,7 @@ import Principal from "../pages/Administration/Principal";
 import Governing from "../pages/Administration/Governings";
 import Teachers from "../pages/Administration/Teachers";
 import Staffs from "../pages/Administration/Stuffs";
+import Contacts from "../pages/contacts/Contacts";
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
       {
         path: "/staff",
         element: <Staffs></Staffs>
+      },
+      {
+        path: "/contacts",
+        element : <Contacts></Contacts>
       }
     ],
   },
