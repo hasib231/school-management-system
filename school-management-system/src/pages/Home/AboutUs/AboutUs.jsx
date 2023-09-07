@@ -6,7 +6,7 @@ const AboutUs = () => {
   return (
     <div className="bg-fixed latest-news p-8 md:p-20 pt-10 relative text-white my-20 ">
       <div className="relative z-10">
-        <h1 className="font-bold text-3xl text-center">আমাদের সম্পর্কিত</h1>
+        <h1 className="font-bold text-3xl text-center">প্রতিষ্ঠানের ইতিহাস</h1>
         <div className=" md:flex justify-center items-center pb-20 pt-12 md:px-36 px-0">
           <div>
             <img
