@@ -1,7 +1,7 @@
 import React from 'react';
 const Notice = () => {
     return (
-      <div>sdfs</div>
+      <div>notice board</div>
 
     );
 };

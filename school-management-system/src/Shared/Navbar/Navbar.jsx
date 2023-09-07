@@ -29,86 +29,86 @@ const Navbar = () => {
             className="menu menu-sm z-10 dropdown-content mt-3  p-2 shadow bg-base-100 rounded-box w-60 pb-5"
           >
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/">মুল পাতা</Link>
             </li>
 
             <li className="">
               <a>
-                About <FaAngleDown></FaAngleDown>
+                সম্পর্কিত <FaAngleDown></FaAngleDown>
               </a>
               <ul className="p-2  shadow bg-base-100 rounded-box w-48">
                 <li>
-                  <Link to="/aboutUs">About Us</Link>
+                  <Link to="/aboutUs">আমাদের সম্পর্কিত</Link>
                 </li>
               </ul>
             </li>
 
             <li className="">
               <a>
-                Administration <FaAngleDown></FaAngleDown>
+                প্রশাসনিক <FaAngleDown></FaAngleDown>
               </a>
               <ul className="p-2  shadow bg-base-100 rounded-box w-48">
                 <li>
-                  <Link to="/chairman">Chairman</Link>
+                  <Link to="/chairman">সভাপতি</Link>
                 </li>
                 <li>
-                  <Link to="/principal">Principal</Link>
+                  <Link to="/principal">প্রধান/অধ্যক্ষ</Link>
                 </li>
                 <li>
-                  <Link to="/governing">Governing</Link>
+                  <Link to="/governing">গভার্নিং</Link>
                 </li>
                 <li>
-                  <Link to="/teachers">Teachers</Link>
+                  <Link to="/teachers">শিক্ষকমন্ডলী</Link>
                 </li>
                 <li>
-                  <Link to="/staff">Staff</Link>
+                  <Link to="/staff">কর্মচারীবৃন্দ</Link>
                 </li>
                 <li>
-                  <Link to="/">Rules & Regulation</Link>
+                  <Link to="/">নিয়মনীতি</Link>
                 </li>
               </ul>
             </li>
 
             <li className="">
               <a>
-                Academic <FaAngleDown></FaAngleDown>
+                একাডেমিক <FaAngleDown></FaAngleDown>
               </a>
               <ul className="p-2  shadow bg-base-100 rounded-box w-48">
                 <li>
-                  <Link to="/">Admission</Link>
+                  <Link to="/">ভর্তি</Link>
                 </li>
                 <li>
-                  <Link to="/">Fees</Link>
+                  <Link to="/">বেতন</Link>
                 </li>
                 <li>
-                  <Link to="/">Ebook</Link>
+                  <Link to="/">ই-বুক</Link>
                 </li>
                 <li>
-                  <Link to="/">Class Routine</Link>
+                  <Link to="/">ক্লাস রুটিন</Link>
                 </li>
                 <li>
-                  <Link to="/">Exam Routine</Link>
+                  <Link to="/">পরীক্ষার রুটিন</Link>
                 </li>
                 <li>
-                  <Link to="/">Syllabus</Link>
+                  <Link to="/">পাঠক্রম</Link>
                 </li>
                 <li>
-                  <Link to="/">Result</Link>
+                  <Link to="/">ফলাফল</Link>
                 </li>
               </ul>
             </li>
 
             <li>
-              <Link to="/">Students</Link>
+              <Link to="/">ছাত্র-ছাত্রী</Link>
             </li>
             <li>
-              <Link to="/gallery">Gallery</Link>
+              <Link to="/gallery">গ্যালারী</Link>
             </li>
             <li>
-              <Link to="/notice">Notice</Link>
+              <Link to="/notice">নোটিস</Link>
             </li>
             <li>
-              <Link to="/contacts">Contact</Link>
+              <Link to="/contacts">কন্ট্যাক্ট</Link>
             </li>
           </ul>
         </div>
@@ -119,86 +119,86 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 z-10">
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">মূল পাতা</Link>
           </li>
 
           <li className="dropdown dropdown-hover">
             <a>
-              About <FaAngleDown></FaAngleDown>
+              সম্পর্কিত <FaAngleDown></FaAngleDown>
             </a>
             <ul className="p-2 dropdown-content shadow bg-base-100 rounded-box w-48">
               <li>
-                <Link to="/aboutUs">About Us</Link>
+                <Link to="/aboutUs">আমাদের সম্পর্কিত</Link>
               </li>
             </ul>
           </li>
 
           <li className="dropdown dropdown-hover">
             <a>
-              Administration <FaAngleDown></FaAngleDown>
+              প্রশাসনিক <FaAngleDown></FaAngleDown>
             </a>
             <ul className="p-2 dropdown-content shadow bg-base-100 rounded-box w-48">
               <li>
-                <Link to="/chairman">Chairman</Link>
+                <Link to="/chairman">সভাপতি</Link>
               </li>
               <li>
-                <Link to="/principal">Principal</Link>
+                <Link to="/principal">প্রধান/অধ্যক্ষ</Link>
               </li>
               <li>
-                <Link to="/governing">Governing</Link>
+                <Link to="/governing">গভার্নিং</Link>
               </li>
               <li>
-                <Link to="/teachers">Teachers</Link>
+                <Link to="/teachers">শিক্ষকমন্ডলী</Link>
               </li>
               <li>
-                <Link to="/staff">Staff</Link>
+                <Link to="/staff">কর্মচারীবৃন্দ</Link>
               </li>
               <li>
-                <Link to="/">Rules & Regulation</Link>
+                <Link to="/">নিয়মনীতি</Link>
               </li>
             </ul>
           </li>
 
           <li className="dropdown dropdown-hover">
             <a>
-              Academic <FaAngleDown></FaAngleDown>
+              একাডেমিক <FaAngleDown></FaAngleDown>
             </a>
             <ul className="p-2 dropdown-content shadow bg-base-100 rounded-box w-48">
               <li>
-                <Link to="/">Admission</Link>
+                <Link to="/">ভর্তি</Link>
               </li>
               <li>
-                <Link to="/">Fees</Link>
+                <Link to="/">বেতন</Link>
               </li>
               <li>
-                <Link to="/">Ebook</Link>
+                <Link to="/">ই-বুক</Link>
               </li>
               <li>
-                <Link to="/">Class Routine</Link>
+                <Link to="/">ক্লাস রুটিন</Link>
               </li>
               <li>
-                <Link to="/">Exam Routine</Link>
+                <Link to="/">পরীক্ষার রুটিন</Link>
               </li>
               <li>
-                <Link to="/">Syllabus</Link>
+                <Link to="/">পাঠ্যক্রম</Link>
               </li>
               <li>
-                <Link to="/">Result</Link>
+                <Link to="/">ফলাফল</Link>
               </li>
             </ul>
           </li>
 
           <li>
-            <Link to="/">Students</Link>
+            <Link to="/">ছাত্র-ছাত্রী</Link>
           </li>
           <li>
-            <Link to="/gallery">Gallery</Link>
+            <Link to="/gallery">গ্যালারী</Link>
           </li>
           <li>
-              <Link to="/notice">Notice</Link>
+              <Link to="/notice">নোটিস</Link>
             </li>
           <li>
-            <Link to="/contacts">Contact</Link>
+            <Link to="/contacts">কন্ট্যাক্ট</Link>
           </li>
         </ul>
       </div>
