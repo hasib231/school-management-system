@@ -10,6 +10,7 @@ import Staffs from "../pages/Administration/Stuffs";
 import Contacts from "../pages/contacts/Contacts";
 import PhotoGallery from "../pages/Gallery/PhotoGallery";
 import Notice from "../pages/Notice/Notice";
+import NoticePage from "../pages/Notice/NoticePage";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -58,7 +59,11 @@ const router = createBrowserRouter([
       {
         path: "/notice",
         element: <Notice></Notice>
-      }
+      },
+      {
+        path: "/noticePage",
+        element: <NoticePage></NoticePage>
+      },
     ],
   },
 ]);
