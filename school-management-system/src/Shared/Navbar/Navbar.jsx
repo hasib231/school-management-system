@@ -117,7 +117,7 @@ const Navbar = () => {
 
       {/* Main navbar */}
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 z-10">
+        <ul className="menu menu-horizontal px-1 z-100">
           <li>
             <Link to="/">মূল পাতা</Link>
           </li>
