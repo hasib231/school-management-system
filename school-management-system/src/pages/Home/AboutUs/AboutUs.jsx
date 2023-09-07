@@ -17,7 +17,7 @@ const AboutUs = () => {
           </div>
           <div className="md:ml-10 ">
             
-            <p className="text-">
+            <p className="">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
               expedita hic dolorem, iusto vel suscipit nam excepturi debitis
               magnam nostrum! Ut eum dignissimos culpa doloremque eligendi
