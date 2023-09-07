@@ -6,18 +6,18 @@ const AboutUs = () => {
   return (
     <div className="bg-fixed latest-news p-8 md:p-20 pt-10 relative text-white my-20 ">
       <div className="relative z-10">
-        <h1 className="font-bold text-3xl text-center">About Us</h1>
-        <div className="md:flex justify-center items-center pb-20 pt-12 px-36 ">
+        <h1 className="font-bold text-3xl text-center">আমাদের সম্পর্কিত</h1>
+        <div className=" md:flex justify-center items-center pb-20 pt-12 md:px-36 px-0">
           <div>
             <img
-              className=""
+              className=" rounded-lg"
               src={aboutUsImg}
               alt=""
             />
           </div>
-          <div className="md:ml-10 ">
+          <div className="md:ml-10">
             
-            <p className="text-">
+            <p className="text-md text-justify pt-5">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
               expedita hic dolorem, iusto vel suscipit nam excepturi debitis
               magnam nostrum! Ut eum dignissimos culpa doloremque eligendi
