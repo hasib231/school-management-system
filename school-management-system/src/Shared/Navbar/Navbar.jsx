@@ -115,7 +115,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">School Name</a>
+        {/* <a className="btn btn-ghost normal-case text-xl">School Name</a> */}
       </div>
 
       {/* Main navbar */}
@@ -210,7 +210,7 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-end">
-        <a className="btn">Login</a>
+        {/* <a className="btn">Login</a> */}
       </div>
     </div>
   );
