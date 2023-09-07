@@ -26,7 +26,7 @@ const Navbar = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-sm z-10 dropdown-content mt-3  p-2 shadow bg-base-100 rounded-box w-60"
+            className="menu menu-sm z-10 dropdown-content mt-3  p-2 shadow bg-base-100 rounded-box w-60 pb-5"
           >
             <li>
               <Link to="/">Home</Link>
@@ -39,12 +39,6 @@ const Navbar = () => {
               <ul className="p-2  shadow bg-base-100 rounded-box w-48">
                 <li>
                   <Link to="/aboutUs">About Us</Link>
-                </li>
-                <li>
-                  <Link to="/">Acceptances Certificate</Link>
-                </li>
-                <li>
-                  <Link to="/">National/MPO Certificate</Link>
                 </li>
               </ul>
             </li>
@@ -111,6 +105,9 @@ const Navbar = () => {
               <Link to="/gallery">Gallery</Link>
             </li>
             <li>
+              <Link to="/notice">Notice</Link>
+            </li>
+            <li>
               <Link to="/contacts">Contact</Link>
             </li>
           </ul>
@@ -132,12 +129,6 @@ const Navbar = () => {
             <ul className="p-2 dropdown-content shadow bg-base-100 rounded-box w-48">
               <li>
                 <Link to="/aboutUs">About Us</Link>
-              </li>
-              <li>
-                <Link to="/">Acceptances Certificate</Link>
-              </li>
-              <li>
-                <Link to="/">National/MPO Certificate</Link>
               </li>
             </ul>
           </li>
@@ -203,6 +194,9 @@ const Navbar = () => {
           <li>
             <Link to="/gallery">Gallery</Link>
           </li>
+          <li>
+              <Link to="/notice">Notice</Link>
+            </li>
           <li>
             <Link to="/contacts">Contact</Link>
           </li>

@@ -1,14 +1,7 @@
 import React from 'react';
+import LeadersDetailsCard from '../../components/leadersDetailsCard/LeaderDetailsCard';
 import Slider from '../Home/Slider';
-
-const AboutUs = () => {
-    return (
-        <div className='w-full pl-1 pr-1 pb-5'>
-            <div className="card w-full bg-base-100 shadow-2xl pt-2">
-                <figure><Slider/></figure>
-                <div className="card-body lg:pl-20 lg:pr-20">
-                    <h2 className='text-center text-xl md:text-2xl font-bold'>MS High School & College</h2>
-                    <p className='text-justify'>Choosing Bulbs
+const msg = `Choosing Bulbs
 When selecting daffodil bulbs, choose ones that look healthy (no black spots) and have a large, firm shape with a dry papery covering. Discard bulbs that are withered and overly dry or soft and mushy. If you notice they've gone soft, rot has likely set in.
 
 Plan on planting in groups of three or up to a dozen bulbs of one variety for them to make an impact.
@@ -29,9 +22,13 @@ Daffodils are a great entry-level plant for novice gardeners developing their gr
 
 Daffodils will not bloom more than once a season, so when you notice the petals fading, allow the foliage to turn yellow and dry up. Do not cut the foliage. It's important to leave the leaves, as they absorb sunlight that helps feed the bulb for next year's blooms.
 
-After the leaves dry up, some gardeners dig up the bulbs, then save them until fall replanting time. This approach allows the space vacated by fading daffodils to be filled with other plants for the summer. Most gardeners, however, leave the daffodil bulbs in the ground, lifting and dividing them every fourth year or so.</p>
-                </div>
-            </div>
+After the leaves dry up, some gardeners dig up the bulbs, then save them until fall replanting time. This approach allows the space vacated by fading daffodils to be filled with other plants for the summer. Most gardeners, however, leave the daffodil bulbs in the ground, lifting and dividing them every fourth year or so.`
+
+
+const AboutUs = () => {
+    return (
+        <div className='flex justify-center'>
+            <LeadersDetailsCard msg={msg}></LeadersDetailsCard>
         </div>
     );
 };

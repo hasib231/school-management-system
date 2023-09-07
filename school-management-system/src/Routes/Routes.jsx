@@ -9,6 +9,7 @@ import Teachers from "../pages/Administration/Teachers";
 import Staffs from "../pages/Administration/Stuffs";
 import Contacts from "../pages/contacts/Contacts";
 import PhotoGallery from "../pages/Gallery/PhotoGallery";
+import Notice from "../pages/Notice/Notice";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -54,6 +55,10 @@ const router = createBrowserRouter([
         path: "/gallery",
         element: <PhotoGallery></PhotoGallery>,
       },
+      {
+        path: "/notice",
+        element: <Notice></Notice>
+      }
     ],
   },
 ]);
