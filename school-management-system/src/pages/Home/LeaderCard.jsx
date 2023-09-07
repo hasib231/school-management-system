@@ -4,7 +4,7 @@ import data from '../../allInformation/admins.json'
 
 const LeaderCard = ({header,pic}) => {
     return (
-        <div className='flex flex-col  gap-3 border border-blue-600 rounded-lg lg:w-1/2'>
+        <div className='flex flex-col  gap-3 border border-blue-600 rounded-lg '>
             <div className='lg:text-2xl text-lg font-bold bg-blue-600 rounded-lg px-3  text-white py-2'>{header}</div>
             <div className='flex items-center px-4 pb-4 gap-10'>
                 {pic ? <img className='lg:h-40 lg:w-40 h-24 w-24 object-cover rounded-full' src={pic}/> : <img className='lg:h-40 lg:w-40 h-24 w-24 object-cover' src={'https://www.seekpng.com/png/detail/40-409597_male-user-filled-icon-man-icon-png.png'}/>}
