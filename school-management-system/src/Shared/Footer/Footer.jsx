@@ -56,7 +56,10 @@ const Footer = () => {
           </header>
 
           <a className=" font-bold text-slate-600 link link-hover">
-            <Link to="" className="flex">
+            <Link
+              to="http://www.educationboard.gov.bd/"
+              className="flex items-center"
+            >
               <div className="me-2">
                 <FaAngleDoubleRight size={15}></FaAngleDoubleRight>
               </div>
@@ -64,15 +67,18 @@ const Footer = () => {
             </Link>
           </a>
           <a className=" font-bold text-slate-600 link link-hover">
-            <Link to="" className="flex">
+            <Link
+              to="https://dinajpureducationboard.gov.bd/"
+              className="flex items-center"
+            >
               <div className="me-2">
                 <FaAngleDoubleRight size={15}></FaAngleDoubleRight>
               </div>
-              Dhaka Education Board
+              Dinajpur Education Board
             </Link>
           </a>
           <a className=" font-bold text-slate-600 link link-hover">
-            <Link to="" className="flex">
+            <Link to="https://moedu.gov.bd/" className="flex items-center">
               <div className="me-2">
                 <FaAngleDoubleRight size={15}></FaAngleDoubleRight>
               </div>
@@ -80,23 +86,23 @@ const Footer = () => {
             </Link>
           </a>
           <a className=" font-bold text-slate-600 link link-hover">
-            <Link to="" className="flex">
+            <Link to="https://banbeis.gov.bd/" className="flex items-center">
               <div className="me-2">
                 <FaAngleDoubleRight size={15}></FaAngleDoubleRight>
               </div>
               Banbeis
             </Link>
           </a>
-          <a className=" font-bold text-slate-600 link link-hover">
-            <Link to="" className="flex">
+          <a className=" font-bold  text-slate-600 link link-hover">
+            <Link to="https://dshe.gov.bd/" className="flex items-center">
               <div className="me-2">
                 <FaAngleDoubleRight size={15}></FaAngleDoubleRight>
               </div>
               Directorate of Secondary & <br /> Higher Education
             </Link>
           </a>
-          <a className=" font-bold  text-slate-600 link link-hover">
-            <Link to="" className="flex">
+          <a className=" font-bold   text-slate-600 link link-hover">
+            <Link to="http://www.nctb.gov.bd/" className="flex items-center">
               <div className="me-2">
                 <FaAngleDoubleRight size={15}></FaAngleDoubleRight>
               </div>
@@ -109,17 +115,22 @@ const Footer = () => {
           <header className=" text-2xl font-bold mb-5 text-slate-600">
             SOCIAL LINKS
           </header>
-          <a className="flex items-center font-bold text-slate-600 mb-2">
-            <div className="me-2">
-              <FaFacebook size={15}></FaFacebook>
-            </div>
-            Facebook
+
+          <a className=" font-bold  text-slate-600 link link-hover">
+            <Link to="" className="flex items-center">
+              <div className="me-2">
+                <FaFacebook size={15}></FaFacebook>
+              </div>
+              Facebook
+            </Link>
           </a>
-          <a className="flex items-center font-bold text-slate-600 mb-2">
-            <div className="me-2">
-              <FaYoutube size={15}></FaYoutube>
-            </div>
-            Youtube
+          <a className=" font-bold   text-slate-600 link link-hover">
+            <Link to="" className="flex items-center">
+              <div className="me-2">
+                <FaYoutube size={15}></FaYoutube>
+              </div>
+              Youtube
+            </Link>
           </a>
         </nav>
       </footer>
