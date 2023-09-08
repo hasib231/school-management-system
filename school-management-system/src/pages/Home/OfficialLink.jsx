@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const OfficialLink = () => {
     return (
-      <div className="bg-base-200 p-5 w-3/12 mx-auto rounded-lg mt-10">
+      <div className="bg-base-200 p-5 w-10/12 md:w-3/12 mx-auto rounded-lg mt-10">
         <h1 className="py-5 font-bold text-green-500 flex">
           <div className="me-2">
             <FaBars></FaBars>
