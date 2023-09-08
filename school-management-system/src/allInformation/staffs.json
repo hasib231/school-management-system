@@ -1,46 +1,29 @@
 {
     "staffs": [
-      {
-        "imgLink": "https://th.bing.com/th/id/R.0301819f445a8855c4a577a6763fb62d?rik=TT%2fgaYZuz1YEig&riu=http%3a%2f%2fanhede.se%2fwp-content%2fuploads%2f2014%2f01%2f130221-2528.jpg&ehk=LToqkipED3KxGj7CVuMoQrvi487RY2HN6IPZ59FCWNQ%3d&risl=&pid=ImgRaw&r=0",
-        "name": "John Smith",
-        "designation": "Cleaner",
-        "phone": "+1234567890"
-      },
-      {
-        "imgLink": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?cs=srgb&dl=pexels-pixabay-220453.jpg&fm=jpg",
-        "name": "Alice Johnson",
-        "designation": "Peon",
-        "phone": "+9876543210"
-      },
-      {
-        "imgLink": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/35af6a41332353.57a1ce913e889.jpg",
-        "name": "Robert Davis",
-        "designation": "Office Assistant",
-        "phone": "+1122334455"
-      },
-      {
-        "imgLink": "",
-        "name": "Sohel Ashik",
-        "designation": "Peon",
-        "phone": "+1122334455"
-      },
-      {
-        "imgLink": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?cs=srgb&dl=pexels-pixabay-220453.jpg&fm=jpg",
-        "name": "Alice Johnson",
-        "designation": "Sweper",
-        "phone": "+9876543210"
-      },
-      {
-        "imgLink": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/35af6a41332353.57a1ce913e889.jpg",
-        "name": "Robert Davis",
-        "designation": "Cleaner",
-        "phone": "+1122334455"
-      },
-      {
-        "imgLink": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/35af6a41332353.57a1ce913e889.jpg",
-        "name": "Robert Davis",
-        "designation": "Cleaner",
-        "phone": "+1122334455"
-      }
+        {
+            "imgLink": "",
+            "name": "MD. REZAUL KARIM",
+            "designation": "3RD CLASS EMPLOYEE"
+        },
+        {
+            "imgLink": "",
+            "name": "SALIMUDDIN",
+            "designation": "4TH CLASS EMPLOYEE"
+        },
+        {
+            "imgLink": "",
+            "name": "ASHIK SARDER",
+            "designation": "CLEANER"
+        },
+        {
+            "imgLink": "",
+            "name": "MD ROKET SARKER",
+            "designation": "SECURITY GUARD"
+        },
+        {
+            "imgLink": "",
+            "name": "ANOWARUL ISLAM JOY",
+            "designation": "OFFICE ASSISTANT (MLSS)"
+        }
     ]
   }

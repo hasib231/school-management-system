@@ -4,7 +4,7 @@ import { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
 function ContactsCard({element,text1,text2}){
 
     return(
-        <div className="flex mt-2">
+        <div className="flex mt-2 hover:bg-yellow-200 px-8 py-5 rounded-lg">
             <div className="rounded-full border-2 border-green-500 p-5 text-green-500 shadow-lg">
               {element}
             </div>
@@ -24,7 +24,7 @@ const Contacts = () => {
           যোগাযোগ
         </div>
 
-        <div className="flex lg:flex-row w-10/12 md:w-10/12 mx-auto md:justify-between flex-col gap-5">
+        <div className="flex lg:flex-row w-10/12 md:w-10/12 mx-auto md:justify-center  flex-col lg:gap-10 gap-5">
             <ContactsCard element={<FaMapMarkerAlt size={35}></FaMapMarkerAlt>} text1={"ঠিকানা"} text2={"উলিপুর, কুড়িগ্রাম"}/>
             <ContactsCard element={<FaEnvelope size={35}></FaEnvelope>} text1={"ইমেইল"} text2={"kanthalBari@gmail.com"}/>
             <ContactsCard element={<FaPhoneAlt size={35}></FaPhoneAlt>} text1={"মোবাইল"} text2={"০১৭২৮৬৪২৩৪৫"}/>

@@ -3,6 +3,19 @@ import './AboutUs.css'
 import aboutUsImg from "../../../assets/school-cartoon.jpg"
 import { Link, useNavigate } from "react-router-dom";
 
+const msg = `কাঁথাল বাড়ী উচ্চ বিদ্যালয় বাংলাদেশের কুড়িগ্রাম জেলার উলিপুর উপজেলার প্রাণকেন্দ্রে অবস্থিত একটি অত্যন্ত সম্মানিত শিক্ষা প্রতিষ্ঠান। 2015 তে প্রতিষ্ঠিত, আমাদের স্কুল প্রজন্মের শিক্ষার্থীদের জন্য শেখার এবং চরিত্রের বিকাশের একটি আলোকবর্তিকা।
+
+কাঁথাল বাড়ি হাই স্কুলে, আমাদের লক্ষ্য স্পষ্ট: একটি সু-বৃত্তাকার শিক্ষা প্রদান করা যা শিক্ষার্থীদের তাদের সম্প্রদায়ের দায়িত্বশীল নাগরিক এবং নেতা হওয়ার জন্য প্রয়োজনীয় জ্ঞান, দক্ষতা এবং মূল্যবোধের সাথে শক্তিশালী করে। শ্রেষ্ঠত্বের প্রতি আমাদের প্রতিশ্রুতি আমাদের অত্যাধুনিক সুবিধাগুলিতে প্রতিফলিত হয়, যার মধ্যে রয়েছে প্রশস্ত এবং সুসজ্জিত শ্রেণীকক্ষ, বইয়ের বিশাল সংগ্রহ সহ একটি বিস্তৃত গ্রন্থাগার, আধুনিক বিজ্ঞান এবং কম্পিউটার পরীক্ষাগার এবং একটি খেলার মাঠ যা একটি কেন্দ্র হিসাবে কাজ করে। খেলাধুলা এবং পাঠ্যক্রম বহির্ভূত কার্যকলাপের জন্য।
+
+আমাদের মূল শক্তিগুলির মধ্যে একটি নিহিত আমাদের নিবেদিত এবং উচ্চ যোগ্য শিক্ষণ কর্মীদের মধ্যে, যারা কেবল তাদের নিজ নিজ ক্ষেত্রে বিশেষজ্ঞই নয়, আমাদের শিক্ষার্থীদের জন্য পরামর্শদাতা এবং গাইডও। আমরা সহপাঠ্যক্রমিক এবং পাঠ্যক্রম বহির্ভূত ক্রিয়াকলাপগুলির উপর একটি দৃঢ় জোর দিই, স্বীকার করি যে সামগ্রিক বিকাশ শ্রেণীকক্ষের বাইরেও প্রসারিত।
+
+কাঁথাল বাড়ি উচ্চ বিদ্যালয় বিস্তৃত একাডেমিক প্রোগ্রাম অফার করে, যার মধ্যে রয়েছে ষষ্ঠ শ্রেণি থেকে দশম শ্রেণি পর্যন্ত মাধ্যমিক শিক্ষা এবং একাদশ ও দ্বাদশ শ্রেণির জন্য উচ্চ মাধ্যমিক শিক্ষা। আমরা আমাদের বৈচিত্র্যময় ছাত্র সংগঠনে গর্ব করি এবং ব্যক্তিগত আগ্রহ এবং আকাঙ্খা পূরণের জন্য বিজ্ঞান, কলা এবং বাণিজ্যে স্ট্রীম অফার করি। আমাদের প্রতিষ্ঠানটি পাবলিক পরীক্ষায় ধারাবাহিকভাবে অসামান্য ফলাফল অর্জনের জন্য পরিচিত, ছাত্র ও শিক্ষক উভয়ের নিষ্ঠা ও প্রতিশ্রুতি প্রদর্শন করে।
+
+শিক্ষাবিদদের বাইরেও, কাঁঠাল বাড়ি উচ্চ বিদ্যালয়ে সম্প্রদায়ের ব্যস্ততা একটি মূল মূল্য। আমরা সক্রিয়ভাবে স্থানীয় সম্প্রদায়ের সাথে আউটরিচ প্রোগ্রাম এবং উদ্যোগের মাধ্যমে সহযোগিতা করি, আমাদের ছাত্রদের জীবনকে সমৃদ্ধ করতে এবং সমাজে অবদান রাখতে সম্মিলিত প্রচেষ্টার শক্তিতে বিশ্বাস করি।
+
+কাঁথাল বাড়ি উচ্চ বিদ্যালয় সম্পর্কে আরও তথ্যের জন্য বা আমাদের সাথে যোগাযোগ করতে, অনুগ্রহ করে আমাদের ওয়েবসাইট পরিদর্শন করুন বা +০০৯২৩৮৩১ এ আমাদের সাথে যোগাযোগ করুন। তরুণ মন লালন এবং একটি উজ্জ্বল ভবিষ্যত গঠনের আমাদের যাত্রায় যোগ দিতে আমরা আপনাকে স্বাগত জানাই।`
+
+
 const AboutUs = () => {
     const navigate = useNavigate();
   return (
@@ -19,18 +32,7 @@ const AboutUs = () => {
           </div> */}
           <div className="flex flex-col">
                 <p className="text-md text-justify pt-5 lg:pt-0  lg:text-lg lg:h-52 h-40 overflow-hidden">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-                    expedita hic dolorem, iusto vel suscipit nam excepturi debitis
-                    magnam nostrum! Ut eum dignissimos culpa doloremque eligendi
-                    consectetur blanditiis laboriosam fugiat ea quia similique quam
-                    nisi reprehenderit numquam magnam nemo vitae cupiditate, atque
-                    maiores dicta minus pariatur. Perspiciatis nobis vero quas?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-                    expedita hic dolorem, iusto vel suscipit nam excepturi debitis
-                    magnam nostrum! Ut eum dignissimos culpa doloremque eligendi
-                    consectetur blanditiis laboriosam fugiat ea quia similique quam
-                    nisi reprehenderit numquam magnam nemo vitae cupiditate, atque
-                    maiores dicta minus pariatur. Perspiciatis nobis vero quas?
+                    {msg}
                 </p>
                 <button onClick={()=>navigate('/aboutus')} className="btn btn-sm text-black mt-4">আরো পড়ুন</button>
                 
