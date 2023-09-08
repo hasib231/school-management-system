@@ -4,7 +4,7 @@ import { FaAngleDown } from "react-icons/fa";
 const Navbar = () => {
     
   return (
-    <div className="navbar bg-base-200">
+    <div className="navbar bg-base-200 z-50">
       {/* mobile navbar */}
       <div className="navbar-start">
         <div className="dropdown ">
@@ -108,7 +108,7 @@ const Navbar = () => {
               <Link to="/notice">নোটিস</Link>
             </li>
             <li>
-              <Link to="/contacts">যোগাযোগ</Link>
+              <Link to="/contacts">কন্ট্যাক্ট</Link>
             </li>
           </ul>
         </div>
@@ -116,8 +116,8 @@ const Navbar = () => {
       </div>
 
       {/* Main navbar */}
-      <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 z-100">
+      <div className="navbar-center hidden lg:flex z-50">
+        <ul className="menu menu-horizontal px-1 ">
           <li>
             <Link to="/">মূল পাতা</Link>
           </li>
@@ -195,15 +195,17 @@ const Navbar = () => {
             <Link to="/gallery">গ্যালারী</Link>
           </li>
           <li>
-            <Link to="/notice">নোটিস</Link>
-          </li>
+              <Link to="/notice">নোটিস</Link>
+            </li>
           <li>
-            <Link to="/contacts">যোগাযোগ</Link>
+            <Link to="/contacts">কন্ট্যাক্ট</Link>
           </li>
         </ul>
       </div>
 
-      <div className="navbar-end">{/* <a className="btn">Login</a> */}</div>
+      <div className="navbar-end">
+        {/* <a className="btn">Login</a> */}
+      </div>
     </div>
   );
 };

@@ -2,6 +2,23 @@ import React from 'react';
 import { FaRegEye } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
+function NoticeRow({date,notice}){
+    return (
+        <tr>
+            <th>{date}</th>
+            <td>{notice}</td>
+            <td>
+                <Link to="/noticePage">
+                <button className="btn btn-outline border-green-500 text-green-500">
+                    বিস্তারিত 
+                </button>
+                </Link>
+            </td>
+        </tr>
+    )
+}
+
+
 const Notice = () => {
     return (
       <div>
@@ -19,50 +36,12 @@ const Notice = () => {
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <th>17 August 2023</th>
-                <td>আগামী ১৭ আগস্ট এইচএসসি পরীক্ষা শুরু</td>
-                <td>
-                  <Link to="/noticePage">
-                    <button className="btn btn-outline border-green-500 text-green-500">
-                      বিস্তারিত <FaRegEye></FaRegEye>
-                    </button>
-                  </Link>
-                </td>
-              </tr>
-              <tr>
-                <th>15 August 2023</th>
-                <td>আগামী ১৫ আগস্ট জাতীয় শোকদিবস পালন প্রসঙ্গে</td>
-                <td>
-                  <Link to="/noticePage">
-                    <button className="btn btn-outline border-green-500 text-green-500">
-                      বিস্তারিত <FaRegEye></FaRegEye>
-                    </button>
-                  </Link>
-                </td>
-              </tr>
-              <tr>
-                <th>17 August 2023</th>
-                <td>আগামী ১৭ আগস্ট এইচএসসি পরীক্ষা শুরু</td>
-                <td>
-                  <Link to="/noticePage">
-                    <button className="btn btn-outline border-green-500 text-green-500">
-                      বিস্তারিত <FaRegEye></FaRegEye>
-                    </button>
-                  </Link>
-                </td>
-              </tr>
-              <tr>
-                <th>15 August 2023</th>
-                <td>আগামী ১৫ আগস্ট জাতীয় শোকদিবস পালন প্রসঙ্গে</td>
-                <td>
-                  <Link to="/noticePage">
-                    <button className="btn btn-outline border-green-500 text-green-500">
-                      বিস্তারিত <FaRegEye></FaRegEye>
-                    </button>
-                  </Link>
-                </td>
-              </tr>
+
+                <NoticeRow date={'17 August 2023'} notice={'আগামী ১৭ আগস্ট এইচএসসি পরীক্ষা শুরু'}/>
+                <NoticeRow date={'15 September 2023'} notice={'আগামী ১৫ আগস্ট জাতীয় শোকদিবস পালন প্রসঙ্গে'}/>
+                <NoticeRow date={'17 July 2023'} notice={'আগামী ১৫ আগস্ট জাতীয় শোকদিবস পালন প্রসঙ্গে'}/>
+                <NoticeRow date={'17 August 2023'} notice={'আগামী ১৭ আগস্ট এইচএসসি পরীক্ষা শুরু'}/>
+
             </tbody>
           </table>
         </div>

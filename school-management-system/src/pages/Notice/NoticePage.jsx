@@ -2,11 +2,11 @@ import React from 'react';
 
 const NoticePage = () => {
     return (
-      <div>
-        <div className="text-center my-12 font-bold text-2xl ">
+      <div >
+        <div className="text-center my-12 font-bold text-2xl px-2">
           আগামী ১৭ আগস্ট এইচএসসি পরীক্ষা শুরু
         </div>
-        <div className="md:w-8/12 mx-auto mb-20">
+        <div className="md:w-8/12 mx-auto mb-20 w-11/12  text-justify">
           <p>
             আগামী বছরের (২০২৪ সাল) এসএসসি ও এইচএসসি পরীক্ষার সম্ভাব্য সময় ঘোষণা
             করেছে শিক্ষা বোর্ডগুলো। এর মধ্যে এসএসসি পরীক্ষা হবে আগামী বছরের

@@ -27,7 +27,7 @@ After the leaves dry up, some gardeners dig up the bulbs, then save them until f
 
 const AboutUs = () => {
     return (
-        <div className='flex justify-center'>
+        <div className='flex justify-center z-0 py-10'>
             <LeadersDetailsCard msg={msg}></LeadersDetailsCard>
         </div>
     );
