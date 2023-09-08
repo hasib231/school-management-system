@@ -11,6 +11,8 @@ import Contacts from "../pages/contacts/Contacts";
 import PhotoGallery from "../pages/Gallery/PhotoGallery";
 import Notice from "../pages/Notice/Notice";
 import NoticePage from "../pages/Notice/NoticePage";
+
+
 const router = createBrowserRouter([
   {
     path: "/",

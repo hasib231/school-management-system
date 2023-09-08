@@ -9,12 +9,11 @@ const NoticeBoard = () => {
                 <Marquee>
                 <h3 className="   me-12">পরীক্ষা স্থগিত</h3>
                 <h3 className="   me-12">
-                    ৬ষ্ঠ শ্রেনীর এসাইন্মেন্ট
+                    প্রজেক্ট
                 </h3>
                 <h3 className="   me-12">নতুন রুটিন - ২০২৩</h3>
-                <h3 className="   me-12">
-                    ৯ম - ১০ শ্রেনীর মডেল টেস্ট
-                </h3>
+                <h3 className="   me-12">মডেল টেস্ট </h3>
+                <h3 className="   me-12">অর্ধ বার্ষিক পরীক্ষার ফলাফল </h3>
                 </Marquee>
             </div>
       </Link>

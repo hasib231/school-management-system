@@ -33,7 +33,7 @@
         {
             "imgLink": "",
             "name": "PUSHPOJIT CHANDRA BARMAN",
-            "designation": "HINDU RELIGION TEACHER"
+            "designation": "HINDU RELIGION TEACHER (SHANSKRIT)"
         },
         {
             "imgLink": "",
@@ -43,7 +43,7 @@
         {
             "imgLink": "",
             "name": "UMME SALMA BILKIS",
-            "designation": "MUSLIM R.TEACHER"
+            "designation": "MUSLIM R.TEACHER (ISLAMIC STUDIES)"
         },
         {
             "imgLink": "",
@@ -68,17 +68,17 @@
         {
             "imgLink": "",
             "name": "AL MAMUNUR RASHID",
-            "designation": "ASSISTANT TEACHER"
+            "designation": "ASSISTANT TEACHER (ENGLISH)"
         },
         {
             "imgLink": "",
             "name": "MD. ABU SAYED",
-            "designation": "ASSISTANT TEACHER"
+            "designation": "ASSISTANT TEACHER (LABORATORY & INFORMATION SCIENCE)"
         },
         {
             "imgLink": "",
             "name": "RATON CHANDRA ROY",
-            "designation": "ASSISTANT TEACHER"
+            "designation": "ASSISTANT TEACHER (PHYSICAL SCIENCE)"
         }
     ]
   }
