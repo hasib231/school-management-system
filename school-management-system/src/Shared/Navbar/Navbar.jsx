@@ -108,7 +108,7 @@ const Navbar = () => {
               <Link to="/notice">নোটিস</Link>
             </li>
             <li>
-              <Link to="/contacts">কন্ট্যাক্ট</Link>
+              <Link to="/contacts">যোগাযোগ</Link>
             </li>
           </ul>
         </div>
@@ -195,17 +195,15 @@ const Navbar = () => {
             <Link to="/gallery">গ্যালারী</Link>
           </li>
           <li>
-              <Link to="/notice">নোটিস</Link>
-            </li>
+            <Link to="/notice">নোটিস</Link>
+          </li>
           <li>
-            <Link to="/contacts">কন্ট্যাক্ট</Link>
+            <Link to="/contacts">যোগাযোগ</Link>
           </li>
         </ul>
       </div>
 
-      <div className="navbar-end">
-        {/* <a className="btn">Login</a> */}
-      </div>
+      <div className="navbar-end">{/* <a className="btn">Login</a> */}</div>
     </div>
   );
 };

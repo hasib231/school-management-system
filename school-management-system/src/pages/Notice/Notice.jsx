@@ -5,7 +5,9 @@ import { Link } from 'react-router-dom';
 const Notice = () => {
     return (
       <div>
-        <div className="text-center my-12 font-bold text-2xl ">নোটিশ</div>
+        <div className="text-center my-12 font-bold text-3xl text-green-500">
+          নোটিশ
+        </div>
         <div className="overflow-x-auto md:w-10/12 mx-auto mb-20">
           <table className="table table-zebra">
             {/* head */}
@@ -22,7 +24,7 @@ const Notice = () => {
                 <td>আগামী ১৭ আগস্ট এইচএসসি পরীক্ষা শুরু</td>
                 <td>
                   <Link to="/noticePage">
-                    <button className="btn btn-outline">
+                    <button className="btn btn-outline border-green-500 text-green-500">
                       বিস্তারিত <FaRegEye></FaRegEye>
                     </button>
                   </Link>
@@ -33,7 +35,7 @@ const Notice = () => {
                 <td>আগামী ১৫ আগস্ট জাতীয় শোকদিবস পালন প্রসঙ্গে</td>
                 <td>
                   <Link to="/noticePage">
-                    <button className="btn btn-outline">
+                    <button className="btn btn-outline border-green-500 text-green-500">
                       বিস্তারিত <FaRegEye></FaRegEye>
                     </button>
                   </Link>
@@ -44,7 +46,7 @@ const Notice = () => {
                 <td>আগামী ১৭ আগস্ট এইচএসসি পরীক্ষা শুরু</td>
                 <td>
                   <Link to="/noticePage">
-                    <button className="btn btn-outline">
+                    <button className="btn btn-outline border-green-500 text-green-500">
                       বিস্তারিত <FaRegEye></FaRegEye>
                     </button>
                   </Link>
@@ -55,7 +57,7 @@ const Notice = () => {
                 <td>আগামী ১৫ আগস্ট জাতীয় শোকদিবস পালন প্রসঙ্গে</td>
                 <td>
                   <Link to="/noticePage">
-                    <button className="btn btn-outline">
+                    <button className="btn btn-outline border-green-500 text-green-500">
                       বিস্তারিত <FaRegEye></FaRegEye>
                     </button>
                   </Link>
