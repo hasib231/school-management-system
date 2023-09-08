@@ -25,9 +25,21 @@ const Contacts = () => {
         </div>
 
         <div className="flex lg:flex-row w-10/12 md:w-10/12 mx-auto md:justify-center  flex-col lg:gap-10 gap-5">
-            <ContactsCard element={<FaMapMarkerAlt size={35}></FaMapMarkerAlt>} text1={"ঠিকানা"} text2={"উলিপুর, কুড়িগ্রাম"}/>
-            <ContactsCard element={<FaEnvelope size={35}></FaEnvelope>} text1={"ইমেইল"} text2={"kanthalBari@gmail.com"}/>
-            <ContactsCard element={<FaPhoneAlt size={35}></FaPhoneAlt>} text1={"মোবাইল"} text2={"০১৭২৮৬৪২৩৪৫"}/>
+          <ContactsCard
+            element={<FaMapMarkerAlt size={35}></FaMapMarkerAlt>}
+            text1={"ঠিকানা"}
+            text2={"জুম্মাহাট, উলিপুর, কুড়িগ্রাম"}
+          />
+          <ContactsCard
+            element={<FaEnvelope size={35}></FaEnvelope>}
+            text1={"ইমেইল"}
+            text2={"s.122589kbh@gmail.com"}
+          />
+          <ContactsCard
+            element={<FaPhoneAlt size={35}></FaPhoneAlt>}
+            text1={"মোবাইল"}
+            text2={"01757832293, 01309122589"}
+          />
         </div>
 
         <div className="my-20 md:w-10/12 w-11/12 mx-auto border-1 border-gray-700 shadow-lg">
@@ -37,7 +49,6 @@ const Contacts = () => {
             height="600"
             style={{ border: "0" }}
             allowfullscreen="true"
-            
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
