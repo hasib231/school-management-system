@@ -7,13 +7,13 @@ const NoticeBoard = () => {
         <Link to="/notice">
             <div  className="bg-yellow-500 lg:py-2 py-1 text-blue-800 text-lg md:text-2xl">
                 <Marquee>
-                <h3 className="   me-12">Exam Postponed</h3>
+                <h3 className="   me-12">পরীক্ষা স্থগিত</h3>
                 <h3 className="   me-12">
-                    Class Six and Seven assessment test postponed
+                    ৬ষ্ঠ শ্রেনীর এসাইন্মেন্ট
                 </h3>
-                <h3 className="   me-12">New routine - 2023</h3>
+                <h3 className="   me-12">নতুন রুটিন - ২০২৩</h3>
                 <h3 className="   me-12">
-                    Class Nine and Ten model test new routine
+                    ৯ম - ১০ শ্রেনীর মডেল টেস্ট
                 </h3>
                 </Marquee>
             </div>
