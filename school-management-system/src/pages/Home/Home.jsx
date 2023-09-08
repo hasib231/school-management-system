@@ -4,7 +4,7 @@ import NoticeBoard from '../../Shared/NoticeBoard/NoticeBoard';
 import AboutUs from './AboutUs/AboutUs';
 import TotalLeaderCard from './LeaderCard';
 import Contacts from '../contacts/Contacts';
-import TeachersCardSlide from './TeachersCardSliding';
+import OfficialLink from './OfficialLink';
 
 const Home = () => {
     return (
@@ -13,7 +13,7 @@ const Home = () => {
             <Slider></Slider>
             <TotalLeaderCard></TotalLeaderCard>
             <AboutUs></AboutUs>
-            <TeachersCardSlide></TeachersCardSlide>
+             <OfficialLink></OfficialLink>
             <Contacts></Contacts>
       </div>
     );
