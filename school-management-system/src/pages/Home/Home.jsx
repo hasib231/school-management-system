@@ -13,7 +13,7 @@ const Home = () => {
             <Slider></Slider>
             <TotalLeaderCard></TotalLeaderCard>
             <AboutUs></AboutUs>
-             <OfficialLink></OfficialLink>
+            <OfficialLink></OfficialLink>
             <Contacts></Contacts>
       </div>
     );
