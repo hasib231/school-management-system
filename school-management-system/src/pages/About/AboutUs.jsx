@@ -1,34 +1,25 @@
 import React from 'react';
 import LeadersDetailsCard from '../../components/leadersDetailsCard/LeaderDetailsCard';
 import Slider from '../Home/Slider';
-const msg = `Choosing Bulbs
-When selecting daffodil bulbs, choose ones that look healthy (no black spots) and have a large, firm shape with a dry papery covering. Discard bulbs that are withered and overly dry or soft and mushy. If you notice they've gone soft, rot has likely set in.
+const msg = `কাঁথাল বাড়ী উচ্চ বিদ্যালয় বাংলাদেশের কুড়িগ্রাম জেলার উলিপুর উপজেলার প্রাণকেন্দ্রে অবস্থিত একটি অত্যন্ত সম্মানিত শিক্ষা প্রতিষ্ঠান। 2015 তে প্রতিষ্ঠিত, আমাদের স্কুল প্রজন্মের শিক্ষার্থীদের জন্য শেখার এবং চরিত্রের বিকাশের একটি আলোকবর্তিকা।
 
-Plan on planting in groups of three or up to a dozen bulbs of one variety for them to make an impact.
+কাঁথাল বাড়ি হাই স্কুলে, আমাদের লক্ষ্য স্পষ্ট: একটি সু-বৃত্তাকার শিক্ষা প্রদান করা যা শিক্ষার্থীদের তাদের সম্প্রদায়ের দায়িত্বশীল নাগরিক এবং নেতা হওয়ার জন্য প্রয়োজনীয় জ্ঞান, দক্ষতা এবং মূল্যবোধের সাথে শক্তিশালী করে। শ্রেষ্ঠত্বের প্রতি আমাদের প্রতিশ্রুতি আমাদের অত্যাধুনিক সুবিধাগুলিতে প্রতিফলিত হয়, যার মধ্যে রয়েছে প্রশস্ত এবং সুসজ্জিত শ্রেণীকক্ষ, বইয়ের বিশাল সংগ্রহ সহ একটি বিস্তৃত গ্রন্থাগার, আধুনিক বিজ্ঞান এবং কম্পিউটার পরীক্ষাগার এবং একটি খেলার মাঠ যা একটি কেন্দ্র হিসাবে কাজ করে। খেলাধুলা এবং পাঠ্যক্রম বহির্ভূত কার্যকলাপের জন্য।
 
-When to Plant
-For daffodils to develop their root system before the cold weather arrives, plant daffodils in mid to late autumn for flowers that will emerge the following spring. If cold weather arrives later in your area, you can plant as late as Thanksgiving.
+আমাদের মূল শক্তিগুলির মধ্যে একটি নিহিত আমাদের নিবেদিত এবং উচ্চ যোগ্য শিক্ষণ কর্মীদের মধ্যে, যারা কেবল তাদের নিজ নিজ ক্ষেত্রে বিশেষজ্ঞই নয়, আমাদের শিক্ষার্থীদের জন্য পরামর্শদাতা এবং গাইডও। আমরা সহপাঠ্যক্রমিক এবং পাঠ্যক্রম বহির্ভূত ক্রিয়াকলাপগুলির উপর একটি দৃঢ় জোর দিই, স্বীকার করি যে সামগ্রিক বিকাশ শ্রেণীকক্ষের বাইরেও প্রসারিত।
 
-Where to Plant
-Consider using daffodils in a shrub border, perennial beds, or with your groundcovers. They also look lovely planted in front of evergreens, which will give them wind protection. If planted with southern exposure, for example, against a home or other foliage, they will flower earlier. They will also naturalize under deciduous trees, in a lawn, or in a meadow but you'll have to refrain from mowing until the foliage dies down.
+কাঁথাল বাড়ি উচ্চ বিদ্যালয় বিস্তৃত একাডেমিক প্রোগ্রাম অফার করে, যার মধ্যে রয়েছে ষষ্ঠ শ্রেণি থেকে দশম শ্রেণি পর্যন্ত মাধ্যমিক শিক্ষা এবং একাদশ ও দ্বাদশ শ্রেণির জন্য উচ্চ মাধ্যমিক শিক্ষা। আমরা আমাদের বৈচিত্র্যময় ছাত্র সংগঠনে গর্ব করি এবং ব্যক্তিগত আগ্রহ এবং আকাঙ্খা পূরণের জন্য বিজ্ঞান, কলা এবং বাণিজ্যে স্ট্রীম অফার করি। আমাদের প্রতিষ্ঠানটি পাবলিক পরীক্ষায় ধারাবাহিকভাবে অসামান্য ফলাফল অর্জনের জন্য পরিচিত, ছাত্র ও শিক্ষক উভয়ের নিষ্ঠা ও প্রতিশ্রুতি প্রদর্শন করে।
 
-How to Plant
-Plant the bulbs pointed end up, about 3 to 6 inches deep. If using light soil, bulbs can be planted about 8 inches deep.
+শিক্ষাবিদদের বাইরেও, কাঁঠাল বাড়ি উচ্চ বিদ্যালয়ে সম্প্রদায়ের ব্যস্ততা একটি মূল মূল্য। আমরা সক্রিয়ভাবে স্থানীয় সম্প্রদায়ের সাথে আউটরিচ প্রোগ্রাম এবং উদ্যোগের মাধ্যমে সহযোগিতা করি, আমাদের ছাত্রদের জীবনকে সমৃদ্ধ করতে এবং সমাজে অবদান রাখতে সম্মিলিত প্রচেষ্টার শক্তিতে বিশ্বাস করি।
 
-The spacing between bulbs can be about 5 inches apart for an immediate, denser impact. If you're more patient, space them about 12 inches apart, as the bulbs will spread and fill in spaces within a few years. Also, if you plant them closer together, consider digging up the bulbs every three to five years, as they can multiply, crowd, and compete for water and nutrients, affecting flowering.
-
-Daffodil Care
-Daffodils are a great entry-level plant for novice gardeners developing their green thumbs. Daffodils require little care other than watering during the active growing season and topdressing with bulb fertilizer in instances where the bulbs are not producing ample flowers.
-
-Daffodils will not bloom more than once a season, so when you notice the petals fading, allow the foliage to turn yellow and dry up. Do not cut the foliage. It's important to leave the leaves, as they absorb sunlight that helps feed the bulb for next year's blooms.
-
-After the leaves dry up, some gardeners dig up the bulbs, then save them until fall replanting time. This approach allows the space vacated by fading daffodils to be filled with other plants for the summer. Most gardeners, however, leave the daffodil bulbs in the ground, lifting and dividing them every fourth year or so.`
-
+কাঁথাল বাড়ি উচ্চ বিদ্যালয় সম্পর্কে আরও তথ্যের জন্য বা আমাদের সাথে যোগাযোগ করতে, অনুগ্রহ করে আমাদের ওয়েবসাইট পরিদর্শন করুন বা +০০৯২৩৮৩১ এ আমাদের সাথে যোগাযোগ করুন। তরুণ মন লালন এবং একটি উজ্জ্বল ভবিষ্যত গঠনের আমাদের যাত্রায় যোগ দিতে আমরা আপনাকে স্বাগত জানাই।`
 
 const AboutUs = () => {
     return (
-        <div className='flex justify-center z-0 py-10'>
-            <LeadersDetailsCard msg={msg}></LeadersDetailsCard>
+        <div className='flex flex-col'>
+            <p className='text-center pt-10 text-xl font-semibold lg:text-3xl'>কাঁঠাল বাড়ি উচ্চবিদ্যালয়</p>
+            <div className='flex justify-center z-0 py-10'>
+                <LeadersDetailsCard imgLink={'https://i.ibb.co/TMTNdVq/kbhs-p2.jpg'} msg={msg}></LeadersDetailsCard>
+            </div>
         </div>
     );
 };

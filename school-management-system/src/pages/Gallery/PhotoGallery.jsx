@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 
 const images = [
-  "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
-  "https://images.unsplash.com/photo-1504711331083-9c895941bf81",
-  "https://images.unsplash.com/photo-1506102383123-c8ef1e872756",
-  "https://images.unsplash.com/photo-1506729623306-b5a934d88b53",
+  "https://i.ibb.co/TMTNdVq/kbhs-p2.jpg",
+  "https://i.ibb.co/CbSJ3zj/kbhs-p1.jpg"
+  
 ];
 
  

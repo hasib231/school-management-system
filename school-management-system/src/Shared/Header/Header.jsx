@@ -16,9 +16,9 @@ const Header = () => {
             <h6 className="text-xs md:font-semibold">ESTD: 2015</h6>
             </div>
         </div>
-        <div className='text-lg font-semibold lg:flex flex-col justify-start pt-3 pr-24 hidden'>
-            <div>EINN: 129012</div>
-            <div>MPO-code: 4232</div>
+        <div className='text-lg  lg:flex flex-col text-right pt-3 pr-24 hidden'>
+            <div>MPO-code: 8809011302</div>
+            <div>EINN: 122589</div>
         </div>
       </div>
     );

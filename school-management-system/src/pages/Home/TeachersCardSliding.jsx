@@ -25,13 +25,16 @@ const TeachersCardSlide = () => {
     const teachers = data.teachers;
     return (
 
-        <div className="w-screen h-fit overflow-x-auto flex justify-center" onClick={()=>navigate('/teachers')}>
-            <div className="flex space-x-4 p-4">
-                {teachers.map((ele)=> (
-                <div className="w-fit h-fit flex-shrink-0 flex-grow-0 rounded-md">
-                    <PersonDetailsCard designation={ele.designation} imgLink={ele.imgLink} name={ele.name}/>
+        <div className='flex flex-col gap-10'>
+            <div className='text-center text-2xl lg:text-3xl font-bold'>শিক্ষকমন্ডলী</div>
+            <div className="w-full h-fit overflow-x-auto flex justify-center" onClick={()=>navigate('/teachers')}>
+                <div className="flex space-x-4  p-4 pl-72 sm:pl-0">
+                    {teachers.map((ele)=> (
+                    <div className="w-fit h-fit flex-shrink-0 flex-grow-0 rounded-md">
+                        <PersonDetailsCard designation={ele.designation} imgLink={ele.imgLink} name={ele.name}/>
+                    </div>
+                    ))}
                 </div>
-                ))}
             </div>
         </div>
     )

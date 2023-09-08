@@ -1,40 +1,84 @@
 {
     "teachers": [
-      {
-        "imgLink": "https://th.bing.com/th/id/R.0301819f445a8855c4a577a6763fb62d?rik=TT%2fgaYZuz1YEig&riu=http%3a%2f%2fanhede.se%2fwp-content%2fuploads%2f2014%2f01%2f130221-2528.jpg&ehk=LToqkipED3KxGj7CVuMoQrvi487RY2HN6IPZ59FCWNQ%3d&risl=&pid=ImgRaw&r=0",
-        "name": "John Smith",
-        "designation": "Assistant Teacher",
-        "phone": "+1234567890"
-      },
-      {
-        "imgLink": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?cs=srgb&dl=pexels-pixabay-220453.jpg&fm=jpg",
-        "name": "Alice Johnson",
-        "designation": "Senior Teacher",
-        "phone": "+9876543210"
-      },
-      {
-        "imgLink": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/35af6a41332353.57a1ce913e889.jpg",
-        "name": "Robert Davis",
-        "designation": "Assistant Head Teacher",
-        "phone": "+1122334455"
-      },
-      {
-        "imgLink": "",
-        "name": "Sohel Ashik",
-        "designation": "Head Teacher",
-        "phone": "+1122334455"
-      },
-      {
-        "imgLink": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?cs=srgb&dl=pexels-pixabay-220453.jpg&fm=jpg",
-        "name": "Alice Johnson",
-        "designation": "Senior Teacher",
-        "phone": "+9876543210"
-      },
-      {
-        "imgLink": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/35af6a41332353.57a1ce913e889.jpg",
-        "name": "Robert Davis",
-        "designation": "Assistant Head Teacher",
-        "phone": "+1122334455"
-      }
+        {
+            "imgLink": "https://i.ibb.co/CmkJqm6/kbhs.jpg",
+            "name": "MD. NAYA MIA",
+            "designation": "HEAD MASTER"
+        },
+        {
+            "imgLink": "",
+            "name": "SREE DEBENDRA NATH ROY",
+            "designation": "ASSISTANT TEACHER (SCIENCE)"
+        },
+        {
+            "imgLink": "",
+            "name": "MD. SHAMSUDDOHA SARKER",
+            "designation": "UNDETERMINED"
+        },
+        {
+            "imgLink": "",
+            "name": "MD. ABDUL MAZID",
+            "designation": "ASSISTANT TEACHER (SOCIAL SCIENCE)"
+        },
+        {
+            "imgLink": "",
+            "name": "MD. ROFIQUL ISLAM",
+            "designation": "ASSISTANT HEAD MASTER"
+        },
+        {
+            "imgLink": "",
+            "name": "MD. SHAHJAHAN SIRAJ",
+            "designation": "COMPUTER TEACHER"
+        },
+        {
+            "imgLink": "",
+            "name": "PUSHPOJIT CHANDRA BARMAN",
+            "designation": "HINDU RELIGION TEACHER"
+        },
+        {
+            "imgLink": "",
+            "name": "MD. SHAHEB ALI",
+            "designation": "PHYSICAL TEACHER"
+        },
+        {
+            "imgLink": "",
+            "name": "UMME SALMA BILKIS",
+            "designation": "MUSLIM R.TEACHER"
+        },
+        {
+            "imgLink": "",
+            "name": "PRODIP KUMAR SARKER",
+            "designation": "ASSISTANT TEACHER (MATH & G.SCIENCE)"
+        },
+        {
+            "imgLink": "",
+            "name": "RABEKA SULTANA",
+            "designation": "ASSISTANT TEACHER (BANGLA)"
+        },
+        {
+            "imgLink": "",
+            "name": "MD ATIQUR RAHMAN",
+            "designation": "AGRICULTURE"
+        },
+        {
+            "imgLink": "",
+            "name": "MAST LAVEIY BEGUM",
+            "designation": "ASSISTANT TEACHER (SEC-SOCIAL SCIENCE)"
+        },
+        {
+            "imgLink": "",
+            "name": "AL MAMUNUR RASHID",
+            "designation": "ASSISTANT TEACHER"
+        },
+        {
+            "imgLink": "",
+            "name": "MD. ABU SAYED",
+            "designation": "ASSISTANT TEACHER"
+        },
+        {
+            "imgLink": "",
+            "name": "RATON CHANDRA ROY",
+            "designation": "ASSISTANT TEACHER"
+        }
     ]
   }
