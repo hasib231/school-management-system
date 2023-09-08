@@ -18,31 +18,31 @@ const Footer = () => {
           <header className=" text-2xl font-bold mb-5 text-slate-600">
             CONTACT
           </header>
-          <a className="flex font-bold text-slate-600 mb-2">
+          <a className="flex items-center font-bold text-slate-600 mb-2">
             <div className="me-2">
               <FaHome size={15}></FaHome>
             </div>
             Kanthal Bari High School
           </a>
-          <a className="flex font-bold text-slate-600 mb-2">
+          <a className="flex items-center font-bold text-slate-600 mb-2">
             <div className="me-2">
               <FaMapMarkerAlt size={15}></FaMapMarkerAlt>
             </div>
             Zummahat, Ulipur, Kurigram
           </a>
-          <a className="flex font-bold text-slate-600 mb-2">
+          <a className="flex items-center font-bold text-slate-600 mb-2">
             <div className="me-2">
               <FaPhoneAlt size={15}></FaPhoneAlt>
             </div>
             +8801757832293
           </a>
-          <a className="flex font-bold text-slate-600 mb-2">
+          <a className="flex items-center font-bold text-slate-600 mb-2">
             <div className="me-2">
               <FaPhoneAlt size={15}></FaPhoneAlt>
             </div>
             +8801309122589
           </a>
-          <a className="flex font-bold text-slate-600 mb-2">
+          <a className="flex items-center font-bold text-slate-600 mb-2">
             <div className="me-2">
               <FaEnvelope size={15}></FaEnvelope>
             </div>
@@ -95,7 +95,7 @@ const Footer = () => {
               Directorate of Secondary & <br /> Higher Education
             </Link>
           </a>
-          <a className=" font-bold text-slate-600 link link-hover">
+          <a className=" font-bold  text-slate-600 link link-hover">
             <Link to="" className="flex">
               <div className="me-2">
                 <FaAngleDoubleRight size={15}></FaAngleDoubleRight>
@@ -109,13 +109,13 @@ const Footer = () => {
           <header className=" text-2xl font-bold mb-5 text-slate-600">
             SOCIAL LINKS
           </header>
-          <a className="flex font-bold text-slate-600 mb-2">
+          <a className="flex items-center font-bold text-slate-600 mb-2">
             <div className="me-2">
               <FaFacebook size={15}></FaFacebook>
             </div>
             Facebook
           </a>
-          <a className="flex font-bold text-slate-600 mb-2">
+          <a className="flex items-center font-bold text-slate-600 mb-2">
             <div className="me-2">
               <FaYoutube size={15}></FaYoutube>
             </div>
