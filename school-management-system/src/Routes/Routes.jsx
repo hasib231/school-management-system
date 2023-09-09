@@ -11,6 +11,8 @@ import Contacts from "../pages/contacts/Contacts";
 import PhotoGallery from "../pages/Gallery/PhotoGallery";
 import Notice from "../pages/Notice/Notice";
 import NoticePage from "../pages/Notice/NoticePage";
+import Accreditation from "../pages/About/Accreditation";
+import Committee from "../pages/About/Committee";
 
 
 const router = createBrowserRouter([
@@ -66,6 +68,14 @@ const router = createBrowserRouter([
         path: "/noticePage",
         element: <NoticePage></NoticePage>
       },
+      {
+        path: '/accreditation',
+        element: <Accreditation></Accreditation>
+      },
+      {
+        path: '/committee',
+        element: <Committee></Committee>
+      }
     ],
   },
 ]);

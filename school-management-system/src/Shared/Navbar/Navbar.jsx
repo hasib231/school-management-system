@@ -40,6 +40,12 @@ const Navbar = () => {
                 <li>
                   <Link to="/aboutUs">আমাদের সম্পর্কিত</Link>
                 </li>
+                <li>
+                    <Link to="/committee">কমিটি</Link>
+                </li>
+                <li>
+                    <Link to="/accreditation">স্বীকৃতি</Link>
+                </li>
               </ul>
             </li>
 
@@ -108,7 +114,7 @@ const Navbar = () => {
               <Link to="/notice">নোটিস</Link>
             </li>
             <li>
-              <Link to="/contacts">কন্ট্যাক্ট</Link>
+              <Link to="/contacts">যোগাযোগ</Link>
             </li>
           </ul>
         </div>
@@ -129,6 +135,12 @@ const Navbar = () => {
             <ul className="p-2 dropdown-content shadow bg-base-100 rounded-box w-48">
               <li>
                 <Link to="/aboutUs">আমাদের সম্পর্কিত</Link>
+              </li>
+              <li>
+                <Link to="/committee">কমিটি</Link>
+              </li>
+              <li>
+                <Link to="/accreditation">স্বীকৃতি</Link>
               </li>
             </ul>
           </li>
@@ -198,7 +210,7 @@ const Navbar = () => {
               <Link to="/notice">নোটিস</Link>
             </li>
           <li>
-            <Link to="/contacts">কন্ট্যাক্ট</Link>
+            <Link to="/contacts">যোগাযোগ</Link>
           </li>
         </ul>
       </div>

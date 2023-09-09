@@ -1,6 +1,14 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import data from '../../allInformation/teachers.json'
+import data from '../../allInformation/teachers.json';
+
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+import { Autoplay, Pagination, Navigation } from "swiper";
 
 
 const PersonDetailsCard = ({imgLink,name,designation}) => {
@@ -27,18 +35,44 @@ const TeachersCardSlide = () => {
 
         <div className='flex flex-col gap-10'>
             <div className='text-center text-2xl lg:text-3xl font-bold'>শিক্ষকমন্ডলী</div>
-            <div className="w-full h-fit overflow-x-auto flex justify-center" onClick={()=>navigate('/teachers')}>
-                <div className="flex space-x-4  p-4 pl-72 sm:pl-0">
-                    {teachers.map((ele)=> (
+            <div className="w-full h-fit overflow-x-scroll flex justify-center"> {/* onClick={()=>navigate('/teachers')} */}
+                
+                    {/* {teachers.map((ele)=> (
                     <div className="w-fit h-fit flex-shrink-0 flex-grow-0 rounded-md">
                         <PersonDetailsCard designation={ele.designation} imgLink={ele.imgLink} name={ele.name}/>
                     </div>
-                    ))}
-                </div>
+                    ))} */}
+                    <Swiper
+                        spaceBetween={30}
+                        centeredSlides={true}
+                        autoplay={{
+                            delay: 1500,
+                            disableOnInteraction: false,
+                        }}
+                        pagination={{
+                            clickable: true,
+                        }}
+                        navigation={false}
+                        modules={[Autoplay, Pagination, Navigation]}
+                        className="mySwiper"
+                        >
+
+                        {teachers.map((ele)=> (
+                            <SwiperSlide>
+                                <div className='flex justify-center pb-10'>
+                                    <div className="w-fit h-fit rounded-md ">
+                                        <PersonDetailsCard designation={ele.designation} imgLink={ele.imgLink} name={ele.name}/>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                        ))}
+                    </Swiper>
             </div>
         </div>
     )
 }
+
+
 
 
 export default TeachersCardSlide;
